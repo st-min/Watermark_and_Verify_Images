@@ -52,3 +52,20 @@ Copy code
 
         python add_watermark_and_generate_signature.py
         python verify_signature.py 
+
+
+## Example
+original image
+![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/6ab038a5-5673-4a49-a625-474961f23416)
+embeded image
+![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/722d0f68-7003-48c5-8dd7-21e3606dd435)
+
+original image
+![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/50c69a37-d356-424f-b84a-8f7f623534fb)
+
+embeded image
+![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/64e3b41d-3736-4fd6-aac3-1a965dd8e9ae)
+
+
+
+
