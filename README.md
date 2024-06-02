@@ -1,4 +1,5 @@
-# test
+# Digital watermarking technique using deep-learning models (CNN, HiDDeN) and digital signature
+
 
 ### CNN 신경망 모델 (Convolutional Neural Networks)
 
