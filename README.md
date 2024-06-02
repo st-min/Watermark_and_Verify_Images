@@ -10,7 +10,7 @@ This project provides a tool to add watermarks to images and verify their integr
 - Verify the integrity of watermarked images using the embedded digital signatures.
 
 ## Method
-####Digital Signature
+#### Digital Signature   
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/8248f33b-fb72-4b4f-b542-7425614cd0b1)  
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/1f7cd709-f4a6-40ae-95de-848a031c7a14) [8]
 
