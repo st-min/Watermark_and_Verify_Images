@@ -77,20 +77,20 @@ embeded image
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/923853bd-4087-40a3-8a4d-9a52fd9bc98a)
 
 
-#### 1 Using CNN for Feature Extraction and Insertion
+#### 1. Using CNN for Feature Extraction and Insertion
 CNNs can effectively learn complex patterns and features in images. By leveraging this, we can extract key features from the original image and determine where to insert the watermark. Using a CNN-based network, the watermark can be inserted into inconspicuous areas of the image, effectively hiding it while maintaining image quality.
 
-#### 2 Enhancing Watermark Robustness with HiDDeN
+#### 2. Enhancing Watermark Robustness with HiDDeN
 a. Adversarial Training: Using the structure of HiDDeN, we employ a Generator and Adversary to generate images with inserted watermarks and train the model to detect them. This process increases robustness, making it difficult to remove the watermark easily.
 
 b. Quality Preservation: Utilizing HiDDeN, we ensure that the watermark-inserted images are nearly indistinguishable from the original images, thus maintaining visual quality.
 
-#### 3 Authentication and Verification Using Digital Signatures
+#### 3. Authentication and Verification Using Digital Signatures
 a. Digital Signature Generation: Before inserting the watermark, we generate a hash value of the image and encrypt it with a private key to create a digital signature. This digital signature is used to verify the integrity of the image.
 
 b. Verification Process: To verify whether the watermark-inserted image has been altered, we use the digital signature. For this, we validate the signature with the provided public key alongside the original image and confirm if the hash values match.
 
-#### 4 Overall System Architecture
+#### 4. Overall System Architecture
 a. Watermark Insertion: Using CNNs, we extract image features and insert the watermark in appropriate locations. By employing GANs, we maintain the quality of watermark-inserted images while increasing robustness. We generate a hash value of the image and encrypt it with a private key to create a digital signature.
 
 b. Watermark Detection and Verification: We decode the image to detect the watermark. Utilizing HiDDeN's Adversary, we verify the validity of the watermark. We verify the digital signature with the public key to ensure the image remains unchanged.
