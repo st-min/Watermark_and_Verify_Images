@@ -60,6 +60,7 @@ Copy code
 
 
 ## Example
+#### Embed Watermark
 original image   
 ![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/6ab038a5-5673-4a49-a625-474961f23416)   
 embeded image   
@@ -67,9 +68,12 @@ embeded image
 
 original image   
 ![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/50c69a37-d356-424f-b84a-8f7f623534fb)
-
 embeded image   
 ![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/64e3b41d-3736-4fd6-aac3-1a965dd8e9ae)
+   
+#### Varification result
+![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/890607f4-2e68-4784-93a6-b546292c86fc)
+
 
 ## Final Goal   
 #### System Achitechture Flowchart
