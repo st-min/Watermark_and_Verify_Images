@@ -10,8 +10,8 @@ This project provides a tool to add watermarks to images and verify their integr
 - Verify the integrity of watermarked images using the embedded digital signatures.
 
 ## Method
-    Digital Signature
-    Wmarked=WprocessCover,Watermark,KeyMarkextracted=EprocessWmarked,Key
+####Digital Signature
+![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/8248f33b-fb72-4b4f-b542-7425614cd0b1)  
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/1f7cd709-f4a6-40ae-95de-848a031c7a14) [8]
 
 ## Requirements
@@ -29,11 +29,11 @@ pip install opencv-python-headless numpy Pillow
 
 ## Usage
 
-# 1. Add Watermark and Generate Digital Signature
+### 1. Add Watermark and Generate Digital Signature
 This script reads images from the input directory, applies watermarking, saves the watermarked images, and embeds their digital signatures in the metadata.
 (Add Watermark and Generate Digital Signature.py)
 
-# 2. Verify Digital Signature
+### 2. Verify Digital Signature
 This script reads watermarked images from the output directory and verifies their integrity by comparing the current and stored signatures embedded in the image metadata. (Verify Digital Signature.py)
 
 ##Directory Structure
@@ -72,9 +72,27 @@ embeded image
 ![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/64e3b41d-3736-4fd6-aac3-1a965dd8e9ae)
 
 ## Final Goal   
-#### System Achitechture Flowchart
-![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452)#### Variication Step Flowchart
+#### System Achitechture Flowchart                        #### Variication Step Flowchart
+![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452)    
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/923853bd-4087-40a3-8a4d-9a52fd9bc98a)
+
+1. **서명 생성**:
+   \[
+   \begin{aligned}
+   H(M) & = \text{Hash}(M) \\
+   S & = \text{Encrypt}(H(M), K_{\text{private}})
+   \end{aligned}
+   \]
+
+2. **서명 검증**:
+   \[
+   \begin{aligned}
+   H(M) & = \text{Hash}(M) \\
+   H'(M) & = \text{Decrypt}(S, K_{\text{public}}) \\
+   H(M) & \stackrel{?}{=} H'(M)
+   \end{aligned}
+   \]
+
 #### 1 Using CNN for Feature Extraction and Insertion
 CNNs can effectively learn complex patterns and features in images. By leveraging this, we can extract key features from the original image and determine where to insert the watermark. Using a CNN-based network, the watermark can be inserted into inconspicuous areas of the image, effectively hiding it while maintaining image quality.
 
