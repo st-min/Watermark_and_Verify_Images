@@ -111,20 +111,6 @@ Copy code
 
 
 ## 🥅 Final Goal 🥅   
-<table align="center">
- <tr>
-  <th>System Achitechture Flowchart</th><th>Variication Step Flowchart</th>
- </tr>
- <tr>
-  <td>
-   <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d6a18df-798a-47e0-a405-97a08114afe8" style="width: 70%; height: 70%;">
-  </td>
-  <td>
-    <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/5781b377-1ca2-44ab-adf4-04285093862f" style="border-radius: 6px;">
-  </td>
- </tr>
-</tr>
-</table>
 
 #### 1. Using CNN for Feature Extraction and Insertion
 - CNNs can effectively learn complex patterns and features in images. By leveraging this, we can extract key features from the original image and determine where to insert the watermark. Using a CNN-based network, the watermark can be inserted into inconspicuous areas of the image, effectively hiding it while maintaining image quality.
@@ -139,12 +125,20 @@ Copy code
 
 - Verification Process: To verify whether the watermark-inserted image has been altered, we use the digital signature. For this, we validate the signature with the provided public key alongside the original image and confirm if the hash values match.
 
-#### 4. Overall System Architecture
-- Watermark Insertion: Using CNNs, we extract image features and insert the watermark in appropriate locations. By employing GANs, we maintain the quality of watermark-inserted images while increasing robustness. We generate a hash value of the image and encrypt it with a private key to create a digital signature.
-
-- Watermark Detection and Verification: We decode the image to detect the watermark. Utilizing HiDDeN's Adversary, we verify the validity of the watermark. We verify the digital signature with the public key to ensure the image remains unchanged.
-
-The combination of CNNs, HiDDeN, and digital signatures forms a robust and efficient digital watermarking system. Such a system would effectively protect the integrity of digital content and provide proof of ownership.
+<table align="center">
+ <tr>
+  <th>System Achitechture Flowchart</th><th>Verification Procedure Flowchart</th>
+ </tr>
+ <tr>
+  <td>
+   <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d6a18df-798a-47e0-a405-97a08114afe8" style="width: 100%; height: 100%;">
+  </td>
+  <td>
+    <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/5781b377-1ca2-44ab-adf4-04285093862f" style="width: 100%; height: 100%;">
+  </td>
+ </tr>
+</tr>
+</table>
 
 ## Reference   
 [1] Hannes Mareen, Lucas Antchougov, Glenn Van Wallendael, and Peter Lambert. " Blind Deep-Learning-Based Image Watermarking Robust Against Geometric Transformations." IEEE International Conference on Consumer Electronics (ICCE) 2024   
