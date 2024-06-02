@@ -61,7 +61,7 @@ Copy code
 
 ## Example
 #### Embed Watermark
-original image                                                   embeded image
+original image                                                   embeded image   
 <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/6ab038a5-5673-4a49-a625-474961f23416" alt="original image" style="width: 50%; height: 50%;">
 <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/722d0f68-7003-48c5-8dd7-21e3606dd435" alt="original image" style="width: 50%; height: 50%;">
 
