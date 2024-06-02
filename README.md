@@ -11,7 +11,8 @@ This project provides a tool to add watermarks to images and verify their integr
 
 ## Method
     Digital Signature
-    ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/1f7cd709-f4a6-40ae-95de-848a031c7a14) [8]
+    Wmarked=WprocessCover,Watermark,KeyMarkextracted=EprocessWmarked,Key
+![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/1f7cd709-f4a6-40ae-95de-848a031c7a14) [8]
 
 ## Requirements
 
@@ -72,8 +73,7 @@ embeded image
 
 ## Final Goal   
 #### System Achitechture Flowchart
-![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452)
-#### Variication Step Flowchart
+![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452)#### Variication Step Flowchart
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/923853bd-4087-40a3-8a4d-9a52fd9bc98a)
 #### 1 Using CNN for Feature Extraction and Insertion
 CNNs can effectively learn complex patterns and features in images. By leveraging this, we can extract key features from the original image and determine where to insert the watermark. Using a CNN-based network, the watermark can be inserted into inconspicuous areas of the image, effectively hiding it while maintaining image quality.
