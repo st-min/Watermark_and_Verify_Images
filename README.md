@@ -15,17 +15,6 @@ This project provides a tool to add watermarks to images and verify their integr
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/1f7cd709-f4a6-40ae-95de-848a031c7a14) [8]
 
 1. **서명 생성**:
-   \begin{aligned}
-   H(M) & = \text{Hash}(M) \\
-   S & = \text{Encrypt}(H(M), K_{\text{private}})
-   \end{aligned}
-
-2. **서명 검증**:
-   \begin{aligned}
-   H(M) & = \text{Hash}(M) \\
-   H'(M) & = \text{Decrypt}(S, K_{\text{public}}) \\
-   H(M) & \stackrel{?}{=} H'(M)
-   \end{aligned}
 
 ## Requirements
 
