@@ -98,10 +98,10 @@ Copy code
     </tr>
  <tr>
   <td>
-   <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/50c69a37-d356-424f-b84a-8f7f623534fb" style="border-radius: 6px;">
+   <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/50c69a37-d356-424f-b84a-8f7f623534fb" style="width: 200%; height: 200%;">
   </td>
   <td>
-    <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/64e3b41d-3736-4fd6-aac3-1a965dd8e9ae" style="border-radius: 6px;">
+    <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/64e3b41d-3736-4fd6-aac3-1a965dd8e9ae" style="width: 250%; height: 250%;">
   </td>
 </tr>
 </table>
