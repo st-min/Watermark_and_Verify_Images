@@ -9,6 +9,9 @@ This project provides a tool to add watermarks to images and verify their integr
 - Embed digital signatures in the image metadata.
 - Verify the integrity of watermarked images using the embedded digital signatures.
 
+## Method
+![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/1f7cd709-f4a6-40ae-95de-848a031c7a14)
+
 ## Requirements
 
 - Python 3.7
