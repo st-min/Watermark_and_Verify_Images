@@ -61,14 +61,29 @@ Copy code
 
 ## Example
 #### Embed Watermark
-original image                                                   embeded image   
-<img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/6ab038a5-5673-4a49-a625-474961f23416" alt="original image" style="width: 50%; height: 50%;">
-<img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/722d0f68-7003-48c5-8dd7-21e3606dd435" alt="original image" style="width: 50%; height: 50%;">
-
-original image                                                   embeded image
-<img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/50c69a37-d356-424f-b84a-8f7f623534fb" alt="original image" style="width: 50%; height: 50%;">
-<img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/64e3b41d-3736-4fd6-aac3-1a965dd8e9ae" alt="original image" style="width: 50%; height: 50%;">
-   
+<table align="center">
+ <tr>
+  <th>Original Image</th><th>Watermarked-Image</th>
+ </tr>
+ <tr>
+  <td>
+   <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/6ab038a5-5673-4a49-a625-474961f23416" style="border-radius: 6px;">
+  </td>
+  <td>
+    <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/722d0f68-7003-48c5-8dd7-21e3606dd435" style="border-radius: 6px;">
+  </td>
+</tr>
+    </tr>
+ <tr>
+  <td>
+   <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/50c69a37-d356-424f-b84a-8f7f623534fb" style="border-radius: 6px;">
+  </td>
+  <td>
+    <img src="https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/64e3b41d-3736-4fd6-aac3-1a965dd8e9ae" style="border-radius: 6px;">
+  </td>
+</tr>
+</table>
+     
 #### Varification result
     ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/890607f4-2e68-4784-93a6-b546292c86fc)
 
