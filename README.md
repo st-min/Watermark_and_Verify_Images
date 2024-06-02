@@ -49,7 +49,6 @@ Copy code
     4. Run add_watermark_and_generate_signature.py to add watermarks and generate digital signatures embedded in the metadata.
     5. Run verify_signature.py to verify the digital signatures of the watermarked images.
     
-    ``` bash
+
         python add_watermark_and_generate_signature.py
         python verify_signature.py 
-    ```
