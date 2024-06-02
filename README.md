@@ -18,17 +18,17 @@ noise_std = 0.3 + 3 * normalized_brightness
 ```
 #### Gaussian blur was randomly added to the local part of the image in proportion to the image size.
 ```python
-        num_areas = random.randint(16, 64)
+num_areas = random.randint(16, 64)
 
-        for _ in range(num_areas):
-            distortion_area_size = int(0.03 * min(height, width))
-            x1, y1 = np.random.randint(30, width - distortion_area_size - 30),
+for _ in range(num_areas):
+        distortion_area_size = int(0.03 * min(height, width))
+        x1, y1 = np.random.randint(30, width - distortion_area_size - 30),
                         np.random.randint(30, height - distortion_area_size - 30)
-            x2, y2 = x1 + distortion_area_size, y1 + distortion_area_size
+        x2, y2 = x1 + distortion_area_size, y1 + distortion_area_size
 
-            distorted_area = img[y1:y2, x1:x2]
+        distorted_area = img[y1:y2, x1:x2]
 
-            distorted_area = cv.GaussianBlur(distorted_area, (3, 3), 0)
+        distorted_area = cv.GaussianBlur(distorted_area, (3, 3), 0)
 ```
 
 ## Method
