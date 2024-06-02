@@ -85,7 +85,7 @@ Copy code
 #### Embed Watermark
 <table align="center">
  <tr>
-  <th>Original Image</th><th>Watermarked-Image</th>
+  <th>Original Image</th><th>Watermarked Image</th>
  </tr>
  <tr>
   <td>
@@ -111,12 +111,20 @@ Copy code
 
 
 ## 🥅 Final Goal 🥅   
-#### System Achitechture Flowchart
-![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452)
-
-#### Variication Step Flowchart
-![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/923853bd-4087-40a3-8a4d-9a52fd9bc98a)
-
+<table align="center">
+ <tr>
+  <th>System Achitechture Flowchart</th><th>Variication Step Flowchart</th>
+ </tr>
+ <tr>
+  <td>
+   <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452" style="border-radius: 6px;">
+  </td>
+  <td>
+    <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/923853bd-4087-40a3-8a4d-9a52fd9bc98a" style="border-radius: 6px;">
+  </td>
+ </tr>
+</tr>
+</table>
 
 #### 1. Using CNN for Feature Extraction and Insertion
 CNNs can effectively learn complex patterns and features in images. By leveraging this, we can extract key features from the original image and determine where to insert the watermark. Using a CNN-based network, the watermark can be inserted into inconspicuous areas of the image, effectively hiding it while maintaining image quality.
