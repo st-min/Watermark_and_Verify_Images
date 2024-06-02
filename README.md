@@ -117,10 +117,10 @@ Copy code
  </tr>
  <tr>
   <td>
-   <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452" style="width: 200%; height: 200%;">
+   <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d6a18df-798a-47e0-a405-97a08114afe8" style="border-radius: 6px;">
   </td>
   <td>
-    <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/923853bd-4087-40a3-8a4d-9a52fd9bc98a" style="width: 250%; height: 250%;">
+    <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/5781b377-1ca2-44ab-adf4-04285093862f" style="border-radius: 6px;">
   </td>
  </tr>
 </tr>
