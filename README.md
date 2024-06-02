@@ -72,7 +72,9 @@ embeded image
 ![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/64e3b41d-3736-4fd6-aac3-1a965dd8e9ae)
 
 ## Final Goal   
-#### System Achitechture Flowchart                        #### Variication Step Flowchart
+#### System Achitechture Flowchart
+                    
+#### Variication Step Flowchart
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452)    
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/923853bd-4087-40a3-8a4d-9a52fd9bc98a)
 
