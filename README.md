@@ -11,7 +11,7 @@ This project provides a tool to add watermarks to images and verify their integr
 
 ## Requirements
 
-- Python 3.x
+- Python 3.7
 - OpenCV
 - NumPy
 - Pillow
