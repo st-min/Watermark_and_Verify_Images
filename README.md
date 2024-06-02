@@ -32,9 +32,10 @@ for _ in range(num_areas):
 ```
 
 ## Method
-### Digital Signature   
-![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/8248f33b-fb72-4b4f-b542-7425614cd0b1)
-![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/1f7cd709-f4a6-40ae-95de-848a031c7a14) [8]
+### Digital Signature  
+<img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/8248f33b-fb72-4b4f-b542-7425614cd0b1" style="width: 40%; height: 40%;">
+
+<img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/c2ab25da-3f7e-463f-8e78-0ef99283e92c" style="width: 40%; height: 40%;">  [8]
 
 ## ⚙️Requirements
 
@@ -46,7 +47,7 @@ for _ in range(num_areas):
 You can install the required Python packages using the following command:
 
 ```bash
-pip install opencv-python-headless numpy Pillow
+pip install opencv-python numpy Pillow
 ```
 
 ## Usage
@@ -77,12 +78,11 @@ Copy code
     4. Run add_watermark_and_generate_signature.py to add watermarks and generate digital signatures embedded in the metadata.
     5. Run verify_signature.py to verify the digital signatures of the watermarked images.
     
-    ~ python add_watermark_and_generate_signature.py
-    ~ python verify_signature.py 
+`$ python add_watermark_and_generate_signature.py`  
+`$ python verify_signature.py`
 
 
 ## Example 
-#### Embed Watermark
 <table align="center">
  <tr>
   <th>Original Image</th><th>Watermarked Image</th>
@@ -106,7 +106,7 @@ Copy code
 </tr>
 </table>
      
-#### Varification result
+#### Output Verification Results
    ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/890607f4-2e68-4784-93a6-b546292c86fc)
 
 
@@ -127,22 +127,22 @@ Copy code
 </table>
 
 #### 1. Using CNN for Feature Extraction and Insertion
-CNNs can effectively learn complex patterns and features in images. By leveraging this, we can extract key features from the original image and determine where to insert the watermark. Using a CNN-based network, the watermark can be inserted into inconspicuous areas of the image, effectively hiding it while maintaining image quality.
+- CNNs can effectively learn complex patterns and features in images. By leveraging this, we can extract key features from the original image and determine where to insert the watermark. Using a CNN-based network, the watermark can be inserted into inconspicuous areas of the image, effectively hiding it while maintaining image quality.
 
 #### 2. Enhancing Watermark Robustness with HiDDeN
-a. Adversarial Training: Using the structure of HiDDeN, we employ a Generator and Adversary to generate images with inserted watermarks and train the model to detect them. This process increases robustness, making it difficult to remove the watermark easily.
+- Adversarial Training: Using the structure of HiDDeN, we employ a Generator and Adversary to generate images with inserted watermarks and train the model to detect them. This process increases robustness, making it difficult to remove the watermark easily.
 
-b. Quality Preservation: Utilizing HiDDeN, we ensure that the watermark-inserted images are nearly indistinguishable from the original images, thus maintaining visual quality.
+- Quality Preservation: Utilizing HiDDeN, we ensure that the watermark-inserted images are nearly indistinguishable from the original images, thus maintaining visual quality.
 
 #### 3. Authentication and Verification Using Digital Signatures
-a. Digital Signature Generation: Before inserting the watermark, we generate a hash value of the image and encrypt it with a private key to create a digital signature. This digital signature is used to verify the integrity of the image.
+- Digital Signature Generation: Before inserting the watermark, we generate a hash value of the image and encrypt it with a private key to create a digital signature. This digital signature is used to verify the integrity of the image.
 
-b. Verification Process: To verify whether the watermark-inserted image has been altered, we use the digital signature. For this, we validate the signature with the provided public key alongside the original image and confirm if the hash values match.
+- Verification Process: To verify whether the watermark-inserted image has been altered, we use the digital signature. For this, we validate the signature with the provided public key alongside the original image and confirm if the hash values match.
 
 #### 4. Overall System Architecture
-a. Watermark Insertion: Using CNNs, we extract image features and insert the watermark in appropriate locations. By employing GANs, we maintain the quality of watermark-inserted images while increasing robustness. We generate a hash value of the image and encrypt it with a private key to create a digital signature.
+- Watermark Insertion: Using CNNs, we extract image features and insert the watermark in appropriate locations. By employing GANs, we maintain the quality of watermark-inserted images while increasing robustness. We generate a hash value of the image and encrypt it with a private key to create a digital signature.
 
-b. Watermark Detection and Verification: We decode the image to detect the watermark. Utilizing HiDDeN's Adversary, we verify the validity of the watermark. We verify the digital signature with the public key to ensure the image remains unchanged.
+- Watermark Detection and Verification: We decode the image to detect the watermark. Utilizing HiDDeN's Adversary, we verify the validity of the watermark. We verify the digital signature with the public key to ensure the image remains unchanged.
 
 The combination of CNNs, HiDDeN, and digital signatures forms a robust and efficient digital watermarking system. Such a system would effectively protect the integrity of digital content and provide proof of ownership.
 
