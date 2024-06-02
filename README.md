@@ -117,7 +117,7 @@ Copy code
  </tr>
  <tr>
   <td>
-   <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d6a18df-798a-47e0-a405-97a08114afe8" style="border-radius: 6px;">
+   <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d6a18df-798a-47e0-a405-97a08114afe8" style="width: 70%; height: 70%;">
   </td>
   <td>
     <img src="https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/5781b377-1ca2-44ab-adf4-04285093862f" style="border-radius: 6px;">
