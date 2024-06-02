@@ -20,17 +20,17 @@ You can install the required Python packages using the following command:
 pip install opencv-python-headless numpy
 ```
 
-Usage
+## Usage
 
-1. Add Watermark and Generate Digital Signature
+# 1. Add Watermark and Generate Digital Signature
 This script reads images from the input directory, applies watermarking, and saves the watermarked images and their digital signatures in the output directory.
 
 
-2. Verify Digital Signature
+# 2. Verify Digital Signature
 This script reads watermarked images and their digital signatures from the output directory, and verifies the integrity of the images by comparing the current and stored signatures.
 
 
-Directory Structure
+##Directory Structure
 
 Copy code
 .
@@ -40,14 +40,13 @@ Copy code
 │   └── README.md
 
 
-How to Run
+## How to Run
 
-Clone the repository.
-Install the required Python packages.
-Set the input and output directory paths in both scripts.
-Run add_watermark_and_generate_signature.py to add watermarks and generate digital signatures.
-Run verify_signature.py to verify the digital signatures of the watermarked images.
-bash
-Copy code
-python add_watermark_and_generate_signature.py
-python verify_signature.py
+    1. Clone the repository.
+    2. Install the required Python packages.
+    3. Set the input and output directory paths in both scripts.
+    4. Run add_watermark_and_generate_signature.py to add watermarks and generate digital signatures.
+    5. Run verify_signature.py to verify the digital signatures of the watermarked images.
+
+        python add_watermark_and_generate_signature.py
+        python verify_signature.py
