@@ -56,9 +56,9 @@ Copy code
 
 ## Example
 original image
-![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/6ab038a5-5673-4a49-a625-474961f23416)
+![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/6ab038a5-5673-4a49-a625-474961f23416)   
 embeded image
-![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/722d0f68-7003-48c5-8dd7-21e3606dd435)
+![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/722d0f68-7003-48c5-8dd7-21e3606dd435)   
 
 original image
 ![image](https://github.com/st-min/Watermarking_using_CNN_Digital_Signature/assets/70586865/50c69a37-d356-424f-b84a-8f7f623534fb)
