@@ -1,4 +1,4 @@
-# Watermark and Verify Images
+# 💧Watermark and Verify Images💧
 
 This project provides a tool to add watermarks to images and verify their integrity using digital signatures. The watermark is created by applying noise and Gaussian blur to parts of the image, and the integrity is verified by generating and checking digital signatures embedded in the image metadata.
 
@@ -36,7 +36,7 @@ noise_std = 0.3 + 3 * normalized_brightness
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/8248f33b-fb72-4b4f-b542-7425614cd0b1)
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/1f7cd709-f4a6-40ae-95de-848a031c7a14) [8]
 
-## Requirements
+## ⚙️Requirements
 
 - Python 3.7
 - OpenCV
@@ -69,7 +69,7 @@ Copy code
 │   └── README.md  
 
 
-## How to Run
+## How to Run 🏃🏻
 
     1. Clone the repository.
     2. Install the required Python packages.
@@ -81,7 +81,7 @@ Copy code
     ~ python verify_signature.py 
 
 
-## Example
+## Example 
 #### Embed Watermark
 <table align="center">
  <tr>
@@ -110,7 +110,7 @@ Copy code
    ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/890607f4-2e68-4784-93a6-b546292c86fc)
 
 
-## Final Goal   
+## 🥅 Final Goal 🥅   
 #### System Achitechture Flowchart
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452)
 
@@ -137,6 +137,7 @@ a. Watermark Insertion: Using CNNs, we extract image features and insert the wat
 b. Watermark Detection and Verification: We decode the image to detect the watermark. Utilizing HiDDeN's Adversary, we verify the validity of the watermark. We verify the digital signature with the public key to ensure the image remains unchanged.
 
 The combination of CNNs, HiDDeN, and digital signatures forms a robust and efficient digital watermarking system. Such a system would effectively protect the integrity of digital content and provide proof of ownership.
+
 ## Reference   
 [1] Hannes Mareen, Lucas Antchougov, Glenn Van Wallendael, and Peter Lambert. " Blind Deep-Learning-Based Image Watermarking Robust Against Geometric Transformations." IEEE International Conference on Consumer Electronics (ICCE) 2024   
    
