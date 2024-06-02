@@ -14,6 +14,19 @@ This project provides a tool to add watermarks to images and verify their integr
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/8248f33b-fb72-4b4f-b542-7425614cd0b1)  
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/1f7cd709-f4a6-40ae-95de-848a031c7a14) [8]
 
+1. **서명 생성**:
+   \begin{aligned}
+   H(M) & = \text{Hash}(M) \\
+   S & = \text{Encrypt}(H(M), K_{\text{private}})
+   \end{aligned}
+
+2. **서명 검증**:
+   \begin{aligned}
+   H(M) & = \text{Hash}(M) \\
+   H'(M) & = \text{Decrypt}(S, K_{\text{public}}) \\
+   H(M) & \stackrel{?}{=} H'(M)
+   \end{aligned}
+
 ## Requirements
 
 - Python 3.7
@@ -76,22 +89,6 @@ embeded image
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/7d352450-f12d-44e7-addd-dcd21465b452)    
 ![image](https://github.com/st-min/Watermark_and_Verify_Images/assets/70586865/923853bd-4087-40a3-8a4d-9a52fd9bc98a)
 
-1. **서명 생성**:
-   \[
-   \begin{aligned}
-   H(M) & = \text{Hash}(M) \\
-   S & = \text{Encrypt}(H(M), K_{\text{private}})
-   \end{aligned}
-   \]
-
-2. **서명 검증**:
-   \[
-   \begin{aligned}
-   H(M) & = \text{Hash}(M) \\
-   H'(M) & = \text{Decrypt}(S, K_{\text{public}}) \\
-   H(M) & \stackrel{?}{=} H'(M)
-   \end{aligned}
-   \]
 
 #### 1 Using CNN for Feature Extraction and Insertion
 CNNs can effectively learn complex patterns and features in images. By leveraging this, we can extract key features from the original image and determine where to insert the watermark. Using a CNN-based network, the watermark can be inserted into inconspicuous areas of the image, effectively hiding it while maintaining image quality.
