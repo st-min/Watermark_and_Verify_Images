@@ -62,8 +62,8 @@ This script reads watermarked images from the output directory and verifies thei
 
 ## Directory Structure
 
-Copy code
-.
+Copy code  
+.  
 ├── watermark_and_verify_images  
 │   ├── add_watermark_and_generate_signature.py  
 │   ├── verify_signature.py  
